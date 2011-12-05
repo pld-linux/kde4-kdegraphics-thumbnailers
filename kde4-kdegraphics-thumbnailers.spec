@@ -4,12 +4,12 @@
 
 Summary:	K Desktop Environment - Thumbnailers for various graphic types
 Name:		kdegraphics-thumbnailers
-Version:	4.7.3
+Version:	4.7.4
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	177ccb5137308ad2a53a2046b4afb910
+# Source0-md5:	cf1fb62fa3f9668406a1a27c3cc3b8d2
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libkdcraw-devel >= %{version}
