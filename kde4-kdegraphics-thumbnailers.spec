@@ -1,20 +1,21 @@
 %define		_state		stable
 %define		orgname		kdegraphics-thumbnailers
-%define		qtver		4.7.4
+%define		qtver		4.8.0
 
 Summary:	K Desktop Environment - Thumbnailers for various graphic types
-Name:		kdegraphics-thumbnailers
-Version:	4.7.4
+Name:		kde4-kdegraphics-thumbnailers
+Version:	4.8.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	cf1fb62fa3f9668406a1a27c3cc3b8d2
+# Source0-md5:	3676f3f233968b12d1bdac40931dde30
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
-BuildRequires:	libkdcraw-devel >= %{version}
-BuildRequires:	libkexiv2-devel >= %{version}
+BuildRequires:	kde4-libkdcraw-devel >= %{version}
+BuildRequires:	kde4-libkexiv2-devel >= %{version}
 Obsoletes:	kde4-kdegraphics-kfile < 4.6.99
+Obsoletes:	kdegraphics-thumbnailers <= 4.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
