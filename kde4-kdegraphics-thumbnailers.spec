@@ -8,7 +8,7 @@ Version:	4.8.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/xz/%{orgname}-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	85b3887e7dff902d9f6b247f5e23719f
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
